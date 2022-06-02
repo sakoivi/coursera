@@ -1,0 +1,65 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+p {
+  padding-top: 50px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  color: white;
+  background-color: dimgray;
+  margin: 0;
+}
+
+section {
+  border: 1px solid black;
+  font-family: Helvetica;
+  margin: 15px;
+}
+
+#p1 {
+  background-color: #A52A2A;
+}
+#p2 {
+  background-color: #2AA52A;
+}
+#p3 {
+  background-color: #2A2AA5;
+}
+h1 {
+  font-size: 175%;
+  text-align: center;
+}
+h2 {
+  padding: 5px;
+  text-align: right;
+  border: 1px solid black;
+  float:  right;
+  color: white;
+  margin: 0;
+  font-size: 125%;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    border: 1px solid black;
+    width: 30%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 46%;
+  }
+  .col-md-12 {
+    width: 95%;
+  }
+}
