@@ -1,0 +1,33 @@
+* {
+  color: #0B2F0B;
+}
+body {
+  padding: 0;
+  background-color: #EDF0BF;
+}
+#header-nav {
+  background-color: #BF2247;
+  padding: 20px;
+  margin: 0;
+}
+#header-nav a {
+  text-decoration: none;
+  color: #D8E42D;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+h2 {
+  padding: 20px;
+}
+section {
+  padding-top: 10px;
+  background-color: #D8E42D;
+}
+p {
+  padding: 20px;
+}
